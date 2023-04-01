@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load custom_filters %}
+{% block content%}
+    {{ product__name}}
+    {{product_price|price}}
+{% endblock %}
